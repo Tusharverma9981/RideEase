@@ -7,8 +7,6 @@ const app = express();
 const connect = require('./db/db');
 connect();
 
-
-
 app.use(cors());
 
 
